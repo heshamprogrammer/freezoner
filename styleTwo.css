@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+*, ul, a, body, html {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+body{
+  position: relative;
+
+}
+.overlay{
+  position: absolute;
+  z-index: -99999999;
+  background-image: url('./back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  top: 100px;
+  width: 70%;
+  margin-left: 15%;
+  /* border:1px solid red; */
+  background-position: center center; 
+}
+
+.logoParent {
+  width: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.logoParent .logo {
+  width: 100%;
+}
+.header .headerInfo {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.header .headerInfo .title {
+  color: #c79922;
+}
+
+.main {
+  margin-left: 60px;
+  padding-top: 40px;
+  position: relative;
+  line-height: 30px;
+}
+
+hr {
+  margin: 30px auto;
+  width: 50%;
+}
+
+.arabic {
+
+  margin-right: 30px;
+  margin-bottom: 40px;
+}/*# sourceMappingURL=main.css.map */
